@@ -1,0 +1,622 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 247);
+}
+#header-section{
+display: flex;
+justify-content: space-around;
+margin-top: 10px;
+background-color:rgb(253, 246, 246);
+}
+.web-name{
+font-size: 20px;
+font-weight: 700;
+font-family: "Outfit", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+}
+nav{
+    margin-top: 10px;
+}
+nav a{
+    margin: 25px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font: 100px;
+}
+nav a:hover{
+    text-decoration: 2px underline black;
+}
+.nav-icon input{
+    padding: 7px;
+    width: 200px;
+}
+.btn-1{
+ padding: 7px;
+ width: 170px;
+ margin-left: 10px;
+ background-color:  rgba(64, 188, 188, 0.87);
+ color: white;
+ border: 2px solid  rgba(64, 188, 188, 0.87);
+ cursor: pointer;
+}
+            /* body style */
+.body-bg{
+    background: url(./images/body-4.jpg);
+    width: 100%;
+    height: 680px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    /* opacity: 0.87;/ */
+}
+.body-bg div h1{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+.body-bg div h4{ 
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+.body-bg div .para1{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+
+}
+.body-bg div h1,h4,.para1{
+    color: white;
+    margin-left: 0;
+}
+.btn-2{
+    margin: 5px;
+    padding: 7px;
+    width: 120px;
+    color: white;
+    background-color: rgba(64, 188, 188, 0.87);
+    border: 2px solid rgba(64, 188, 188, 1);
+    cursor: pointer;
+}
+.btn-3{
+padding: 7px;
+width: 120px;
+color: white;
+border: 2px solid white;
+background-color: transparent;
+cursor: pointer;
+}
+#body-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+#body-main div img{
+    width:600px;
+    height: auto;
+    margin-right:10px;
+}
+#body-main div h3,p{
+    color: black;
+    margin-left: 15px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal
+}
+#body-main div h3{
+    font-size: 30px;
+    font-weight: 300px;
+    margin-bottom: 4px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.seprator-1{
+    width: 50px;
+    height: 4px;
+    margin-bottom: 10px;
+    margin: 0 15px 20px;
+    background-color: rgba(64, 188, 188, 0.87);
+}
+.para{
+    margin-bottom: 10px;
+    word-spacing: 2;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.btn4 {
+margin-left: 15px;
+margin-top: 7px;
+padding: 7px;
+width: 120px;
+background-color: rgba(64, 188, 188, 0.87);
+border: 1px solid rgba(64, 188, 188, 0.87);
+color: white;
+cursor: pointer;
+}
+.btn5{
+margin-left: 4px;
+padding: 7px;
+width: 90px;
+background-color: black;
+color: white;
+border: 1px solid white;
+cursor: pointer;
+}
+.latest-work{
+    margin-top:50px; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+.latest-work h2{
+    font-size: 30px;
+    font-weight: 400;  
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.latest-work a{
+    text-decoration: none;
+    color: rgba(64, 188, 188, 0.87);
+}
+.seprator-2{
+    width: 50px;
+    height: 4px;
+    margin: 20px auto;
+    background-color: rgba(64, 188, 188, 0.87);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.Services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 70px;
+    background-color: rgb(241, 241, 241);
+}
+.Services div{
+    margin:0  70px;
+}
+.srv-1 h3{
+    font-size: 20px;
+    font-weight: 300px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.srv-1 p{
+    margin-left: 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.srv-2{
+    margin-top: 0;
+}
+.seprator-3{
+    width: 50px;
+    height: 4px;
+    margin-left:0px ;
+    background-color: rgba(64, 188, 188, 0.87); 
+}
+.card-section{
+    margin-top:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 20px;
+width: 250px;
+margin: 0 auto;
+}
+.card img{
+    width: 100%;
+}
+.card h3 {
+margin-top: 0;
+text-align: center;
+margin-bottom: 10px;
+font-size: 30px;
+font-weight: 400;
+font-family: "Outfit", sans-serif;
+font-optical-sizing: auto;
+font-style: normal
+}
+.card p {
+margin-bottom: 10px;
+text-align: center;
+font-family: "Outfit", sans-serif;
+font-optical-sizing: auto;
+font-style: normal
+
+}
+.card button {
+background-color:rgb(0, 0, 0);
+border-radius: 10px;
+border: none;
+color: white;
+padding: 7px;
+width: 130px;
+margin-left: 25%;
+margin-bottom: 10px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+
+}
+.card button:hover{
+    background-color: rgba(64, 188, 188, 0.9);
+}
+.card p a{
+    text-decoration: none;
+    color: rgba(64, 188, 188, 0.947);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.card p a:hover{
+    text-decoration: 2px underline rgba(64, 188, 188, 0.9);
+}
+.wrapper {
+    background: rgb(9, 9, 9);
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 67px 0 0;
+}
+.mainSlider {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 500%;
+    height: auto;
+    transition: left 0.4s;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.content {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.content h2 {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.content p {
+    font-size: 25px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 1.7;
+    color: #fff;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    max-width: 750px;
+}
+.img-area img {
+    width: 100%;
+}
+.img-area {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 40px;
+    border: 5px solid #fff;
+}
+.carousel-btn-prev-btn, .carousel-btn-next-btn {
+    padding: 5px 10px;
+    margin: 20px;
+    background-color: rgba(64, 188, 188, 0.947);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+#blog-heading{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 150px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+#blog-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog-card {
+    margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: relative;
+}
+.blog-bg {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.blog-head {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    background: rgb(255, 255, 255); 
+    color: white;
+    text-align: center;
+}
+.blog-head p {
+    background-color: rgba(64, 188, 188, 0.947);
+    color: white;
+    font-size: 20px;
+    padding: 0 5px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.blog-head img {
+    width: 16px;
+    height: auto;
+    cursor: pointer;
+}
+.blog-card h5 {
+    margin: 10px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.blog-card .p1, .blog-card .p2 {
+    margin: 10px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.heart-clicked {
+    filter: invert(28%) sepia(88%) saturate(4271%) hue-rotate(347deg) brightness(94%) contrast(108%);
+}
+.counter {
+    font-size: 14px;
+    color: black;
+    margin-left: 5px;
+}
+.comment-box {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    width: 280px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 10;
+    border-radius: 5px;
+}
+.comment-box textarea {
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.comment-box button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgba(64, 188, 188, 0.947);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#last-head-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+.last-heading{
+    text-align: center;
+}
+.last-heading h2{
+    font-size: 30px;
+    font-weight: 200;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.btn7{
+    margin: 8px;
+    padding: 8px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+.btn8{
+    margin: 8px;
+    padding: 8px;
+    width: 170px;
+    color: white;
+    background-color:rgba(64, 188, 188, 0.947);
+    border: none;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(6, 5, 5);
+    padding: 20px;
+}
+.web-name-down h1{
+    font-size: 50px;
+    font-weight: 500px;
+    color: white;
+    width: 350px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.web-about p{
+    color: white;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.web-about h2{
+    font-size: 30px;
+    font-weight: 400px;
+    text-align: center;
+    margin-top:30px ;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.social-icon{
+margin: 50px;
+width: 350px;
+display: flex;
+justify-content: center;
+}
+.social-icon div{
+    background-color: white;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.social-icon img{   
+    width: 22px;
+    height: 22px;
+    color: white;
+    margin: 4px;
+}
+.web-right .para-p{
+    padding: 7px;
+margin-left: 0;
+ text-align: center;
+ color: white;
+ background:black;
+ font-family: "Outfit", sans-serif;
+ font-optical-sizing: auto;
+ font-style: normal
+}
+
+@media screen and (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Services div {
+        margin: 0 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .web-name {
+        font-size: 16px;
+    }
+    nav a {
+        margin: 15px;
+        font-size: 14px;
+    }
+    .nav-icon input {
+        width: 150px;
+    }
+    .btn-1 {
+        width: 120px;
+    }
+    .body-bg {
+        height: 400px;
+    }
+    .body-bg div h1 {
+        font-size: 30px;
+    }
+    .body-bg div h4 {
+        font-size: 18px;
+    }
+    .btn-2, .btn-3 {
+        width: 100px;
+    }
+    #body-main div h3 {
+        font-size: 24px;
+    }
+    .btn4 {
+        width: 100px;
+    }
+    .btn5 {
+        width: 70px;
+    }
+    .card {
+        width: 200px;
+    }
+    .card h3 {
+        font-size: 24px;
+    }
+    .card button {
+        width: 100px;
+    }
+    .mainSlider {
+        flex-wrap: wrap;
+    }
+}
